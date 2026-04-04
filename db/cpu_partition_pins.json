@@ -1,0 +1,325 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "resultado[0]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[1]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[2]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[3]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[4]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[5]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[6]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[7]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[8]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[9]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[10]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[11]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[12]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[13]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[14]",
+					"strict" : false
+				},
+				{
+					"name" : "resultado[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ligado",
+					"strict" : false
+				},
+				{
+					"name" : "leu",
+					"strict" : false
+				},
+				{
+					"name" : "sinal",
+					"strict" : false
+				},
+				{
+					"name" : "EN",
+					"strict" : false
+				},
+				{
+					"name" : "RS",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_ON",
+					"strict" : false
+				},
+				{
+					"name" : "data_lcd[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_lcd[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_lcd[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_lcd[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_lcd[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_lcd[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data_lcd[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_lcd[7]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade[0]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade[1]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade[2]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade[3]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade[4]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade[5]",
+					"strict" : false
+				},
+				{
+					"name" : "unidade[6]",
+					"strict" : false
+				},
+				{
+					"name" : "centena[0]",
+					"strict" : false
+				},
+				{
+					"name" : "centena[1]",
+					"strict" : false
+				},
+				{
+					"name" : "centena[2]",
+					"strict" : false
+				},
+				{
+					"name" : "centena[3]",
+					"strict" : false
+				},
+				{
+					"name" : "centena[4]",
+					"strict" : false
+				},
+				{
+					"name" : "centena[5]",
+					"strict" : false
+				},
+				{
+					"name" : "centena[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dezena[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dezena[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dezena[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dezena[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dezena[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dezena[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dezena[6]",
+					"strict" : false
+				},
+				{
+					"name" : "milhar[0]",
+					"strict" : false
+				},
+				{
+					"name" : "milhar[1]",
+					"strict" : false
+				},
+				{
+					"name" : "milhar[2]",
+					"strict" : false
+				},
+				{
+					"name" : "milhar[3]",
+					"strict" : false
+				},
+				{
+					"name" : "milhar[4]",
+					"strict" : false
+				},
+				{
+					"name" : "milhar[5]",
+					"strict" : false
+				},
+				{
+					"name" : "milhar[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "botao_ler",
+					"strict" : false
+				},
+				{
+					"name" : "botao_ligar",
+					"strict" : false
+				},
+				{
+					"name" : "data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data[16]",
+					"strict" : false
+				},
+				{
+					"name" : "data[15]",
+					"strict" : false
+				},
+				{
+					"name" : "data[17]",
+					"strict" : false
+				},
+				{
+					"name" : "data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

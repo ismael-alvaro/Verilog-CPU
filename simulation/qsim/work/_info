@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Users/mfav/Downloads/cpu (2)/cpu/simulation/qsim
+vcpu
+Z1 !s110 1742746985
+!i10b 1
+!s100 gb2kNJfnjz68OHRS0a1<01
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]ZF0JoQH9QZmk4^iad^7j2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dC:/users/steamuser/Documents/cpu (6)/cpu (5)/cpu (2)/cpu/simulation/qsim
+w1742746984
+Z5 8cpu.vo
+Z6 Fcpu.vo
+!i122 58
+L0 32 15769
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1742746985.000000
+Z9 !s107 cpu.vo|
+Z10 !s90 -work|work|cpu.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcpu_vlg_vec_tst
+R1
+!i10b 1
+!s100 n`:=R?4Ro>X@Z69Dk=]YZ3
+R2
+InKb[D;g]Uz58QF?_z^jl<2
+R3
+R4
+w1742746983
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+!i122 59
+L0 30 156
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R11
+R12
+vhard_block
+!s110 1742300700
+!i10b 1
+!s100 Xk_9GnbR7di[dUi<IeL[Y2
+R2
+I`YMZTNAkzMTc@6hJX2m<<3
+R3
+R0
+w1742300699
+R5
+R6
+!i122 2
+L0 1637 34
+R7
+r1
+!s85 0
+31
+!s108 1742300700.000000
+R9
+R10
+!i113 1
+R11
+R12
+vula
+Z13 !s110 1742730649
+!i10b 1
+!s100 lD8gnbCVD5Kcaa`1K;D9A2
+R2
+I<Ei3akQFPlj10idb=10YX0
+R3
+R4
+w1742730648
+R5
+R6
+!i122 42
+L0 32 4076
+R7
+r1
+!s85 0
+31
+Z14 !s108 1742730649.000000
+R9
+R10
+!i113 1
+R11
+R12
+vula_vlg_vec_tst
+R13
+!i10b 1
+!s100 PCdXSMNUJfBVPYL3;K^802
+R2
+IfMER2M[TkiM:lA_4_DIZV3
+R3
+R4
+w1742730647
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 43
+L0 30 192
+R7
+r1
+!s85 0
+31
+R14
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R11
+R12
