@@ -1,0 +1,59 @@
+module decodificador_7seg(
+    input [14:0] numero,
+    output reg [6:0] unidade,
+    output reg [6:0] dezena,
+    output reg [6:0] centena,
+    output reg [6:0] milhar,
+    output reg sinal
+);
+
+    reg [3:0] digito_unidade;
+    reg [3:0] digito_dezena;
+    reg [3:0] digito_centena;
+    reg [3:0] digito_milhar;
+    reg [13:0] valor_abs;
+
+    // Extrai o sinal e converte para valor absoluto se necessário
+    always @(*) begin
+        sinal = numero[14]; // MSB representa o sinal
+        if (sinal)
+            valor_abs = ~numero[13:0] + 1; // Converte para positivo (2's complement)
+        else
+            valor_abs = numero[13:0];
+    end
+
+    // Separa os dígitos em BCD (Divisão por 10)
+    always @(*) begin
+        digito_unidade = valor_abs % 10;
+        digito_dezena = (valor_abs / 10) % 10;
+        digito_centena = (valor_abs / 100) % 10;
+        digito_milhar = (valor_abs / 1000) % 10;
+    end
+
+    // Função para converter dígito BCD em padrão de 7 segmentos
+    function [6:0] bcd_to_7seg;
+        input [3:0] bcd;
+        case (bcd)
+            4'd0: bcd_to_7seg = 7'b0111111;
+            4'd1: bcd_to_7seg = 7'b0000110;
+            4'd2: bcd_to_7seg = 7'b1011011;
+            4'd3: bcd_to_7seg = 7'b1001111;
+            4'd4: bcd_to_7seg = 7'b1100110;
+            4'd5: bcd_to_7seg = 7'b1101101;
+            4'd6: bcd_to_7seg = 7'b1111101;
+            4'd7: bcd_to_7seg = 7'b0000111;
+            4'd8: bcd_to_7seg = 7'b1111111;
+            4'd9: bcd_to_7seg = 7'b1101111;
+            default: bcd_to_7seg = 7'b0000000;
+        endcase
+    endfunction
+
+    // Converte cada dígito para saída de 7 segmentos
+    always @(*) begin
+        unidade = bcd_to_7seg(digito_unidade);
+        dezena = bcd_to_7seg(digito_dezena);
+        centena = bcd_to_7seg(digito_centena);
+        milhar = bcd_to_7seg(digito_milhar);
+    end
+
+endmodule

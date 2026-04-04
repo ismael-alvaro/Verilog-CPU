@@ -1,0 +1,3 @@
+module display_lcd( ligado, clk, leu, funcao_atual, reg_atual, resultado, EN1, RW1, RS1, LCD_ON1, data_lcd_fio);
+
+endmodule
